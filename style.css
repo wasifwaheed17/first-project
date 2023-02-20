@@ -1,4 +1,19 @@
 body{
-    margin: auto
-    ;
+    margin: 20px 40px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 125px;
+}
+
+.menu ul{
+    list-style: none;
+    
+}
+.menu li{
+    display: inline;
 }
