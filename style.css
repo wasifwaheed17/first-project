@@ -1,19 +1,43 @@
 body{
+    background-color: #363543;
     margin: 20px 40px;
     
 }
 .container{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
 }
 .logo img{
     width: 125px;
 }
-
+.menu{
+    width: 900px;
+    /*margin-left: 125px;
+    margin-right: 125px;
+*/}
 .menu ul{
     list-style: none;
     
 }
 .menu li{
     display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color:rgb(85,85,108);
+}
+.menu a:hover{
+    color:white;
+}
+.fa-thin{
+    width: 5px;
+    height: 5px;
+}
+.fa-brands{
+    width: 5px;
+    height: 5px;
 }
