@@ -33,11 +33,8 @@ body{
 .menu a:hover{
     color:white;
 }
-.fa-thin{
-    width: 5px;
-    height: 5px;
-}
-.fa-brands{
-    width: 5px;
-    height: 5px;
+.icon{
+    width:15px;
+    height: 15px;
+    margin-top: 13px; 
 }
