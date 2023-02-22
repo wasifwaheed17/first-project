@@ -1,6 +1,6 @@
 body{
     background-color: #363543;
-    margin: 20px 40px;
+    margin: 20px 50px;
     
 }
 .container{
@@ -37,4 +37,6 @@ body{
     width:15px;
     height: 15px;
     margin-top: 13px; 
+    padding-left: 10px;
+    padding-right: 10px;
 }
