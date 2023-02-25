@@ -1,7 +1,7 @@
 body {
     margin: 20px 80px;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgba(54,53,67,255);
+    background-color: rgba(54, 53, 67, 255);
 }
 
 
@@ -38,7 +38,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: rgba(124,123,139,255);
+    color: rgba(124, 123, 139, 255);
 }
 
 .menu a:hover {
@@ -52,15 +52,8 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
-.icon2{
-    width: 25px;
-    height: 25px;
-    margin-top: 13px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: grey;
-    border-radius: 50%;
-}
+
+
 
 .container0 {
     display: flex;
@@ -73,7 +66,7 @@ body {
 }
 
 .container2 {
-    /* padding-top: 30px; */
+    padding-top: 63px;
     /* position: relative;
     z-index: -1; */
 
@@ -84,6 +77,7 @@ body {
     font-size: 80px;
     overflow: hidden;
     white-space: nowrap;
+    width: 600px;
 
     /* text-overflow:ellipsis; */
     /* width: calc(40vw) !important; */
@@ -96,15 +90,15 @@ body {
 } */
 
 .colo {
-    background-color:rgba(225,177,51,255);
-    width: 130px;
+    background-color: rgba(225, 177, 51, 255);
+    width: 200px;
     height: 3px;
 
 }
 
 
 .gt {
-    width: 450px; 
+    width: 400px;
 }
 
 
@@ -112,13 +106,14 @@ body {
 .gt2 {
     color: white;
     width: 250px;
+    padding-top: 20px;
 }
 
 .backcolor {
-    background-color:rgba(45,45,57,255);
+    background-color: rgba(45, 45, 57, 255);
     border-radius: 50%;
     width: 700px;
-    height:700px;
+    height: 700px;
     position: absolute;
     opacity: 1;
     z-index: -1;
@@ -132,11 +127,49 @@ body {
     /* margin-right: 400px;  */
     position: relative;
     z-index: 0;
-    right: 60%;
+    right: 49%;
 }
 
 .gt1 {
-    padding-top: 50px;
+
+    padding-top: 103px;
+    padding-left: 38px;
     color: white;
+    /* left: 68%; */
+    /* position: absolute; */
+
+    /* margin-right: 80px; */
+    /* white-space: nowrap; */
+}
+
+.f {
+    font-size: 22.5px;
+}
+
+.color2 {
+    color: rgba(225, 177, 51, 255);
+}
+.s1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
     
+
+}
+.s2{
+    padding-right:20px;
+    
+}
+.icon2 {
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    /* background-color: transparent; */
+    background-color: #40414f;
+    border-radius: 50%;
+}
+.icon2 img{
+    width: 20px;
 }
