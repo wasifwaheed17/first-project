@@ -54,12 +54,13 @@ body {
 }
 
 .menu a:hover {
-    color: white;
+    color: white!important;
+    background-color: antiquewhite;
 }
 
 .icon {
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     margin-top: 13px;
     padding-left: 10px;
     padding-right: 10px;
@@ -195,7 +196,7 @@ body {
     width: 20px;
 }
 .container3{
-    width: 90%;
+    width: 85%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -205,10 +206,11 @@ body {
     z-index: -0;
     position: absolute;
     top: 750px;
-    margin-left: 70px;
+    margin-left: 100px;
+    
 }
 .add{
-    width: 225px;
+    width: 235px;
     height: 55px;
     margin-right: 20px;
     margin-top: 25px;
@@ -216,10 +218,110 @@ body {
 }
 .other{
     background-color:rgba(45, 45, 57, 255);
-    height: calc(50vh);
-    width:100%;
+    /* height: calc(50vh); */
+    /* width:100%; */
     /* margin:0px;
     padding: 0px; */
     /* margin-top: 50px; */
-    padding-top: 50px;
+    padding-top: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    color: white;
 }
+.tsize{
+    font-size: 33px;
+    font-weight: bold;
+}
+.tsize2{
+    width: 300px;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.coli{
+    color: rgba(225, 177, 51, 255);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.colip{
+    font-size: 14px;
+}
+.fl{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    padding-top: 20px;
+    
+}
+.f12{
+    padding-bottom: 20px;
+}
+
+
+.st{
+    width: 500px;
+    margin-top: 50px;
+
+}
+.isize{
+    width:150px;
+    height:100px;
+    /* display: inline-block; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    vertical-align: middle;
+    float: left;
+}
+.c23{
+    margin-left: 150px;
+    /* padding-top: 20px; */
+    width: 500px;
+}
+
+.align{
+    border-bottom: 3px solid white;
+    /* padding-top: 20px; */ 
+    width: calc(40vw);
+    /* vertical-align: baseline; */
+    height: calc(18vh);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.align p{
+    margin-left: 20px;
+   }
+.falan
+{
+    /* padding-top: 20px; */
+    display: flex;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+
+}
+.w{
+    width: 400px;
+    padding-left:25px ;
+    padding-top: 10px;
+    
+}
+.wi{
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+.w12{
+    white-space: nowrap;
+    overflow: hidden;
+     font-size: 20px;
+
+}
+.padi{
+padding-top: 10px;
+}
+
