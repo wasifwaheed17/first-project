@@ -10,7 +10,7 @@ body {
 }
 
 .pad {
-    padding: 20px 80px;
+    padding: 0px 80px;
     background-color: rgba(54, 53, 67, 255);
     z-index: -1;
     position: relative;
@@ -21,14 +21,32 @@ body {
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
-
-
+    /* z-index: -1; */
+    /* position: fixed; */
+    background-color: rgba(54, 53, 67, 255);
+    padding: 20px 80px;
 }
 
 .logo {
     width: 125px;
     color: white;
     font-size: 20px;
+    display: flex;
+}
+
+.active {
+    color: white !important;
+    /* text-shadow:2px 2px white ; */
+
+}
+
+.im {
+    width: 30px;
+    height: 30px;
+}
+
+.logo p {
+    padding-top: 5px;
 }
 
 .menu {
@@ -36,6 +54,7 @@ body {
     /*margin-left: 125px;
     margin-right: 125px;
 */
+    padding-top: 6px;
 }
 
 .menu ul {
@@ -62,7 +81,7 @@ body {
 .icon {
     width: 18px;
     height: 18px;
-    margin-top: 13px;
+    margin-top: 8px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -93,6 +112,7 @@ body {
     white-space: nowrap;
     width: 600px;
     margin-bottom: 20px;
+    padding-top: 60px;
 
     /* text-overflow:ellipsis; */
     /* width: calc(40vw) !important; */
@@ -107,7 +127,7 @@ body {
 .colo {
     background-color: rgba(225, 177, 51, 255);
     width: 200px;
-    height: 3px;
+    height: 4px;
     margin-top: 0px;
     padding-top: 0px !important;
 
@@ -122,8 +142,9 @@ body {
 
 .gt2 {
     color: white;
-    width: 250px;
+    width: 270px;
     padding-top: 20px;
+    line-height: 30px;
 }
 
 .backcolor {
@@ -150,7 +171,7 @@ body {
 
 .gt1 {
 
-    padding-top: 103px;
+    padding-top: 110px;
     padding-left: 38px;
     color: white;
     /* left: 68%; */
@@ -162,11 +183,22 @@ body {
 
 .f {
     font-size: 22.5px;
+    line-height: 40px;
 }
 
 .color2 {
     color: rgba(225, 177, 51, 255);
+    padding-top: 20px;
 }
+.icon1 {
+    width: 18px;
+    height: 18px;
+    /* margin-top: 8px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
 
 .s1 {
     display: flex;
@@ -238,6 +270,8 @@ body {
     /* justify-content: space-between; */
     flex-direction: row;
     color: white;
+    height: 700px;
+
 }
 
 .tsize {
@@ -344,4 +378,66 @@ body {
 
 .padi {
     padding-top: 10px;
+}
+
+.shortf {
+    padding-left: 70px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    top: 1400px;
+    position: absolute;
+    z-index: 0;
+    /* width: 100%; */
+}
+
+.short {
+    background-color: #40414f;
+    width: 370px;
+    height: 300px;
+    /* padding: 10px; */
+    margin: 10px;
+    justify-content: center;
+
+}
+
+.shortd {
+    width: 100%;
+    background-color: rgba(54, 53, 67, 255);
+    height: 100px;
+    position: relative;
+    z-index: -2;
+}
+
+.new {
+    background-color: rgba(45, 45, 57, 255);
+    width: 50px;
+    height: 50px;
+    padding-left: 8px;
+    border-radius: 100%;
+    margin: 40px 0px 20px 40px;
+}
+
+.n2 {
+    width: 35px;
+    height: 35px;
+    margin: 4px;
+}
+
+.short h2 {
+    color: white;
+    /* font-size: 20px; */
+    padding-left: 40px;
+    /* margin-left: 8px; */
+    margin-top: 0px;
+}
+
+.short p {
+    color: white;
+    /* justify-content: space-evenly; */
+    margin: 40px;
+    /* letter-spacing: 1px; */
+    line-height: 25px;
+    word-spacing: 2px;
 }
